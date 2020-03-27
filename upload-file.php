@@ -1,4 +1,4 @@
-<?php
+<?php if(count(get_included_files()) ==1) exit("Direct access not permitted."); // Sécurité ?><?php
 //session_start();
 require('configuration.php');
 ?>

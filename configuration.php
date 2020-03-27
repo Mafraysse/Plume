@@ -1,4 +1,4 @@
-<?php
+<?php if(count(get_included_files()) ==1) exit("Direct access not permitted."); // Sécurité ?><?php
 // Le fichier index.php doit avoir tous les droits (777)
 // Le répertoire uploads doit être en (777)
 // Pensez à paramétrer php pour que augmenter la taille des fichiers transférés

@@ -105,7 +105,7 @@ var site  = '<?php echo $enseignants[$id_professeur_selectionne][3].'/'; ?>' ;
 		document.getElementById("zonedenotification").innerHTML="<p class=\"reussite vert\">Mise en ligne terminée</p>";
 		//Add uploaded file to list
 		//alert(response);
-		document.getElementById("zonedenotification").innerHTML='<p class=\"reussite vert\">Le document '+file+' est en ligne <a target="_blank" href="<?php echo "uploads/".$enseignants[$id_professeur_selectionne][3]."/".$classe_eleve."/".$nom_eleve." ".$prenom_eleve." "; ?>'+file+'">ici</a></p>';
+		document.getElementById("zonedenotification").innerHTML='<p class=\"reussite vert\">Le document '+file+' est en ligne <a target="_blank" href="<?php echo "uploads/".$enseignants[$id_professeur_selectionne][3]."/".$classe_eleve."/".$nom_eleve."_".$prenom_eleve."_"; ?>'+file+'">ici</a></p>';
 
 	$("#zonedenotification").delay(30000).fadeOut(1600);
 			}
