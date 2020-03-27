@@ -21,10 +21,15 @@ Ouvrir le fichier "configuration.php" pour modifier les variables nécessaires.
 # Personnalisation de l'explorateur de fichier :
 Plume copie le fichier "index.php" qui se trouve à la racine du dossier "uploads" dans chaque dossier d'enseignant lors de la mise ne ligne du premier document. Ce fichier "index.php" sert donc de model. Les variables suivantes peuvent être personnalisées.
 `$allow_delete = true; // Autorise la suppression des données ;`
+
 `$allow_upload = false; // Autorise la mise en ligne de fichiers par l'enseignant ;`
+
 `$allow_create_folder = false; // Autorise la création de dossiers par l'enseignant dans son dossier ;`
+
 `$allow_direct_link = true; // Permet de télécharger directement les fichiers via l'url ;`
+
 `$allow_show_folders = true; // Cacher les sous-dossiers ;`
+
 `$PASSWORD = ''; // protège le répertoire de l'enseignant par un mot de passe.`
 
 # Remerciements :
