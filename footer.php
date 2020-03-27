@@ -1,0 +1,1 @@
+<p align="right" style="font-size:10px">Plume par <a target="_blank" href="https://twitter.com/Matfraysse">@Matfraysse</a> - <a target="_blank" href="https://github.com/Mafraysse/Plume">GitHub</a> <?php include("version.php"); ?></p>
