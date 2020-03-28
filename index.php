@@ -61,12 +61,12 @@ include("footer.php");
 
     // Création d'un répertoire pour le professeur via $id_professeur_selectionne si celui-ci ne fonctionne pas
     if (!is_dir("uploads/".$enseignants[$id_professeur_selectionne][3]."/") == true) {
-        mkdir("uploads/".$enseignants[$id_professeur_selectionne][3]."/", 0755); // Création du dossier
+        mkdir("uploads/".$enseignants[$id_professeur_selectionne][3]."/", 0745); // Création du dossier
         copy("uploads/index.php", "uploads/".$enseignants[$id_professeur_selectionne][3]."/index.php");
     }
     // Création d'un répertoire pour la classe si il n'existe pas
     if (!is_dir("uploads/".$enseignants[$id_professeur_selectionne][3]."/".$classe_eleve."/") == true) {
-        mkdir("uploads/".$enseignants[$id_professeur_selectionne][3]."/".$classe_eleve."/", 0755); // Création du dossier
+        mkdir("uploads/".$enseignants[$id_professeur_selectionne][3]."/".$classe_eleve."/", 0745); // Création du dossier
     }
     ?>
 

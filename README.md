@@ -3,7 +3,7 @@ Plume est un outil permettant aux élèves de transférer facilement des fichier
 Une fois mis en ligne sur un serveur, Plume créé de façon autonome les répertoires nécessaires à son fonctionnement.
 # Droits
 ⚠️ Le répertoire de Plume doit avoir l'autorisation d'écriture et d'exécution :
-- Le fichier index.php doit avoir tous les droits (777) ;
+- Le fichier index.php doit avoir tous les droits (744) ;
 - Le répertoire uploads doit être en (777) ;
 # Installation
 ##Configuration du script

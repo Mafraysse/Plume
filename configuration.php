@@ -1,5 +1,5 @@
 <?php if(count(get_included_files()) ==1) exit("Direct access not permitted."); // Sécurité ?><?php
-// Le fichier index.php doit avoir tous les droits (777)
+// Le fichier index.php doit avoir tous les droits (744)
 // Le répertoire uploads doit être en (777)
 // Pensez à paramétrer php pour que augmenter la taille des fichiers transférés
 
@@ -14,7 +14,7 @@ $enseignants = array
   array("Mme", "Nom", "email@gmail.com", "ziudhzidqisdquisdh"),// Dupliquer cette ligne pour ajouter autant de comptes que nécessaires
   array("M.", "Fraysse", "email2@gmail.com", "zeiuzhfizufhaa")// Pas de virgule pour la dernière ligne
 );
-// Formats de fichiers autorisés
-$formats_autorises = "jpg|png|jpeg|gif|mp3|pdf|doc|docx|xlsx|numbers|pages|key|keynote|txt|odt";
-$activation_notification = "oui";
+// Extensions de fichiers autorisés à l'upload
+$formats_autorises = "jpg|png|jpeg|gif|mp3|pdf|doc|docx|xlsx|xls|numbers|pages|key|keynote|txt|odt"; // Attention : ne pas autoriser les fichiers executables : php ou autres.
+$activation_notification = false; // true pour autoriser l'envoi d'un mail de notification
 ?>
